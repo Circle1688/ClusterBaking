@@ -1696,6 +1696,7 @@ class ClusterBaking(ClusterBaking_form, ClusterBaking_base):
         msgBox = QMessageBox(QMessageBox.Warning, msgTitle, msgText, QMessageBox.NoButton, self)
         deleteButton = msgBox.addButton("退出", QMessageBox.ActionRole)
         cancelButton = msgBox.addButton(QMessageBox.Cancel)
+        msgBox.setWindowIcon(QtGui.QIcon(os.path.join(get_icon_resource_path(), "icon.ico")))
         msgBox.exec_()
         if msgBox.clickedButton() == deleteButton:
             self.deleteAllProcesses()

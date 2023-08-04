@@ -607,6 +607,16 @@
              <property name="enabled">
               <bool>false</bool>
              </property>
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">text-align:left;
+padding: 6px;</string>
+             </property>
              <property name="text">
               <string>&#x70D8;&#x7119;&#x8BBE;&#x7F6E;</string>
              </property>
@@ -628,6 +638,16 @@
             <widget class="QPushButton" name="remote_setting_Btn">
              <property name="enabled">
               <bool>false</bool>
+             </property>
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">text-align:left;
+padding: 6px;</string>
              </property>
              <property name="text">
               <string>&#x8FDC;&#x7A0B;&#x542F;&#x52A8;</string>
